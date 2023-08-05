@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin: 30px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  height: 350px;
+  flex: 1;
+  border: 5px solid grey;
+}
+
+.right {
+  height: 350px;
+  flex: 1;
+  border: 5px solid grey;
+}
+
+.product {
+  color: white;
+  height: 50px;
+  background-color: grey;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 5px;
+  width: 60px;
+  justify-content: center;
+}
+
+.plus {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+.minus {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.total {
+  color: white;
+  height: 60px;
+  background-color: grey;
+  margin-top: 40px;
+  border: 5px solid white;
+}
